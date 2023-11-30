@@ -14,6 +14,7 @@ $nameUser2=$_POST['nameUser2'];
 $lastName2=$_POST['lastName2'];
 if($nameUser2=="" or $lastName2==""){
     echo"Campos vacios";
+    echo('<br/>');
 }else{
     echo($nameUser2);
     echo('<br/>');
@@ -31,7 +32,7 @@ if($nameUser2=="" or $lastName2==""){
     <title>Document</title>
 </head>
 <body>
-    <form action="ejercicio2.php" method="get">
+    <form action="#" method="get">
         Nombre:
         <input type ="text" name ="nameUser" id="name">
         <br/>
@@ -43,7 +44,7 @@ if($nameUser2=="" or $lastName2==""){
 
     </form>
 
-    <form action="ejercicio2.php" method="post">
+    <form action="#" method="post">
         Nombre:
         <input type ="text" name ="nameUser2" id="name">
         <br/>
